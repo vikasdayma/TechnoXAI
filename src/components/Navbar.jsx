@@ -18,9 +18,9 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const features = [
-    { name: "Membership", path: "http://localhost:3000/automatedreport" },
-    { name: "Leaderboard", path: "http://localhost:3000/automatedreport" },
-    { name: "Collaboration", path: "http://localhost:3000/collaboration" },
+    { name: "Membership", path: "https://techno-x-ai.vercel.app/" },
+    { name: "Leaderboard", path: "https://techno-x-ai.vercel.app/" },
+    { name: "Collaboration", path: "https://techno-x-ai.vercel.app/" },
     // { name: "Event Manager", path: "http://localhost:3003" },
     // { name: "Fund Manager", path: "http://localhost:3001" }
   ];
