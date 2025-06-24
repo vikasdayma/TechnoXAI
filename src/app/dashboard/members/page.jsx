@@ -18,7 +18,8 @@ import {
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
 export default function MembersPage() {
-  const [selectedMembers, setSelectedMembers] = useState<string[]>([])
+  // const [selectedMembers, setSelectedMembers] = useState<string[]>([])
+  const [selectedMembers, setSelectedMembers] = useState([])
 
   const members = [
     {
@@ -86,7 +87,7 @@ export default function MembersPage() {
     },
   ]
 
-  const toggleMember = (id: string) => {
+  const toggleMember = (id) => {
     setSelectedMembers((prev) => (prev.includes(id) ? prev.filter((memberId) => memberId !== id) : [...prev, id]))
   }
 
