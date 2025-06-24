@@ -102,10 +102,10 @@ const Navbar = () => {
         <div className="flex flex-col items-center gap-4 py-4">
           {[
             { name: "Home", path: "/" },
-            { name: "Dashboard", path: "/dashboard" },
-            { name: "Collaboration", path: "/collaboration" },
-            { name: "Automated Report", path: "/automatedreport" },
-            { name: "Contact", path: "/contact" },
+            { name: "Dashboard", path: "https://techno-x-ai.vercel.app/" },
+            { name: "Collaboration", path: "https://techno-x-ai.vercel.app/" },
+            { name: "Automated Report", path: "https://techno-x-ai.vercel.app/" },
+            { name: "Contact", path: "https://techno-x-ai.vercel.app/" },
           ].map((menu, idx) => (
             <Link
               key={idx}
